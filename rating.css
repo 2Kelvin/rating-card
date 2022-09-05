@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,300&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bgBlack {
+    background-color: #141519;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.card {
+    border-radius: 20px;
+    background-color: #1E252F;
+    padding: 2em;
+    height: fit-content;
+    width: 350px;
+}
+.circleDiv {
+    border-radius: 50%;
+    opacity: 0.4;
+    padding: 1em;
+    background-color:#262F38;
+    height: fit-20px;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+.circleDiv:hover {
+    background-color: #7c8898;
+}
+.circleDiv img{
+    fill: #fb7715;
+}
+.card p {
+    opacity: 0.5;
+    font-weight: 300;
+}
+.card h2 {
+    font-weight: 500;
+}
+.rateNo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+button {
+    margin-top: 3em;
+    background-color: #fb7715;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+button:active {
+    background-color: #fff;
+    color: #fb7715;
+}
